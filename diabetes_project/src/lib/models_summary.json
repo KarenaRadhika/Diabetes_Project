@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-09-17T09:51:29.985568",
+  "dataset": {
+    "total_samples": 768,
+    "train_samples": 614,
+    "test_samples": 154,
+    "features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ],
+    "target": "Outcome"
+  },
+  "best_model": {
+    "name": "XGBoost",
+    "accuracy": 77.27,
+    "precision": 69.39,
+    "recall": 62.96,
+    "f1_score": 0.6602,
+    "roc_auc": 0.8207,
+    "cv_mean_accuracy": 73.29
+  },
+  "leaderboard": [
+    {
+      "name": "XGBoost",
+      "accuracy": 77.27,
+      "precision": 69.39,
+      "recall": 62.96,
+      "f1_score": 0.6602,
+      "roc_auc": 0.8207,
+      "cv_mean_accuracy": 73.29,
+      "cv_std": 2.99,
+      "confusion_matrix": [
+        [
+          85,
+          15
+        ],
+        [
+          20,
+          34
+        ]
+      ]
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 75.97,
+      "precision": 63.93,
+      "recall": 72.22,
+      "f1_score": 0.6783,
+      "roc_auc": 0.7622,
+      "cv_mean_accuracy": 72.96,
+      "cv_std": 1.68,
+      "confusion_matrix": [
+        [
+          78,
+          22
+        ],
+        [
+          15,
+          39
+        ]
+      ]
+    },
+    {
+      "name": "Gradient Boosting",
+      "accuracy": 75.97,
+      "precision": 68.89,
+      "recall": 57.41,
+      "f1_score": 0.6263,
+      "roc_auc": 0.8306,
+      "cv_mean_accuracy": 75.41,
+      "cv_std": 2.03,
+      "confusion_matrix": [
+        [
+          86,
+          14
+        ],
+        [
+          23,
+          31
+        ]
+      ]
+    },
+    {
+      "name": "AdaBoost",
+      "accuracy": 75.32,
+      "precision": 67.39,
+      "recall": 57.41,
+      "f1_score": 0.62,
+      "roc_auc": 0.8158,
+      "cv_mean_accuracy": 77.04,
+      "cv_std": 0.6,
+      "confusion_matrix": [
+        [
+          85,
+          15
+        ],
+        [
+          23,
+          31
+        ]
+      ]
+    },
+    {
+      "name": "K-Nearest Neighbors (KNN)",
+      "accuracy": 74.03,
+      "precision": 63.46,
+      "recall": 61.11,
+      "f1_score": 0.6226,
+      "roc_auc": 0.7951,
+      "cv_mean_accuracy": 75.57,
+      "cv_std": 3.58,
+      "confusion_matrix": [
+        [
+          81,
+          19
+        ],
+        [
+          21,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "Support Vector Machine (SVC)",
+      "accuracy": 74.03,
+      "precision": 65.22,
+      "recall": 55.56,
+      "f1_score": 0.6,
+      "roc_auc": 0.7964,
+      "cv_mean_accuracy": 78.01,
+      "cv_std": 1.36,
+      "confusion_matrix": [
+        [
+          84,
+          16
+        ],
+        [
+          24,
+          30
+        ]
+      ]
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 74.03,
+      "precision": 66.67,
+      "recall": 51.85,
+      "f1_score": 0.5833,
+      "roc_auc": 0.8106,
+      "cv_mean_accuracy": 77.36,
+      "cv_std": 2.05,
+      "confusion_matrix": [
+        [
+          86,
+          14
+        ],
+        [
+          26,
+          28
+        ]
+      ]
+    },
+    {
+      "name": "Extra Trees",
+      "accuracy": 72.73,
+      "precision": 62.0,
+      "recall": 57.41,
+      "f1_score": 0.5962,
+      "roc_auc": 0.8086,
+      "cv_mean_accuracy": 75.73,
+      "cv_std": 1.38,
+      "confusion_matrix": [
+        [
+          81,
+          19
+        ],
+        [
+          23,
+          31
+        ]
+      ]
+    },
+    {
+      "name": "Logistic Regression",
+      "accuracy": 70.78,
+      "precision": 60.0,
+      "recall": 50.0,
+      "f1_score": 0.5455,
+      "roc_auc": 0.813,
+      "cv_mean_accuracy": 78.82,
+      "cv_std": 1.91,
+      "confusion_matrix": [
+        [
+          82,
+          18
+        ],
+        [
+          27,
+          27
+        ]
+      ]
+    },
+    {
+      "name": "Gaussian Naive Bayes",
+      "accuracy": 70.13,
+      "precision": 56.67,
+      "recall": 62.96,
+      "f1_score": 0.5965,
+      "roc_auc": 0.7646,
+      "cv_mean_accuracy": 76.23,
+      "cv_std": 2.8,
+      "confusion_matrix": [
+        [
+          74,
+          26
+        ],
+        [
+          20,
+          34
+        ]
+      ]
+    }
+  ]
+}
