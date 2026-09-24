@@ -4,6 +4,8 @@ An end-to-end Machine Learning web application that predicts diabetes risk with 
 
 Built with **Python**, **Scikit-Learn**, **XGBoost**, **Flask**, and **React (Vite + TailwindCSS + Lucide Icons + Recharts)**.
 
+🔗 **Live Web Application**: [https://karenaradhika.github.io/Diabetes_Project/](https://karenaradhika.github.io/Diabetes_Project/)
+
 ---
 
 ## 🌟 Key Highlights
